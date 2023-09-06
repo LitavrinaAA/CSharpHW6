@@ -27,8 +27,8 @@ int b2 = InputValue("введите значение b2");
 int k2 = InputValue("введите число k2");
 
 
-double x = GetX(b1, b2, k1, k2);//(-b2 + b1)/(-k1 + k2);
-double y = GetY(b2, k2, x);//k2 * x + b2;
+double x = GetX(b1, b2, k1, k2);
+double y = GetY(b2, k2, x);
 
 System.Console.WriteLine(x);
 System.Console.WriteLine(y);
